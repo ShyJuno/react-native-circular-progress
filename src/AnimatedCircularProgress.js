@@ -1,5 +1,5 @@
 import React from "react";
-import PropTypes from "prop-types";
+import { PropTypes } from "deprecated-react-native-prop-types";
 import { Animated, Easing } from "react-native";
 import CircularProgress from "./CircularProgress";
 const AnimatedProgress = Animated.createAnimatedComponent(CircularProgress);
